@@ -30,10 +30,10 @@ To run the Healthcare Demo project locally, follow these steps:
 - HTML/CSS/JavaScript
 
 ## Dataset
-You can access the dataset used in this project [here](https://www.miricanvas.com/v/12un5t0).
+You can access the dataset used in this project [here](https://www.kaggle.com/datasets/shayanfazeli/heartbeat).
 
 ## Presentation
-The presentation documents for this project can be found [here](https://www.kaggle.com/datasets/shayanfazeli/heartbeat).
+The presentation documents for this project can be found [here](https://www.miricanvas.com/v/12un5t0).
 
 ## Contributing
 
