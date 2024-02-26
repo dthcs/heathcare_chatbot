@@ -1,0 +1,114 @@
+body {
+	background-size: cover;
+	background-position: center	center;
+    /* background: linear-gradient(to top, rgba(23, 2, 2, 0.2)100%, rgba(19, 3, 3, 0.2)100%), url(./photo/background.png) no-repeat center center fixed; */
+
+    /* position: fixed;
+    top: 0; */
+	
+	/* display: flex; */
+	/* align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	min-height: 100vh; */
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+.chat-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(43, 42, 42, 0.4);
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.7);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* .chat-container {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 25px;
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.7);
+	overflow: hidden;
+	padding: 15px;
+	position: relative;
+	width: 320px;
+	max-width: 100%;
+} */
+
+.file-upload {
+    margin: 20px;
+    text-align: center;
+}
+
+.chat {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.message {
+	background-color: rgba(209, 236, 208, 0.9);
+	border-radius: 50px;
+	box-shadow: 0px 15px 5px 0px rgba(158, 156, 156, 0.5);
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.message.left {
+	padding: 20px 20px 20px 20px;
+}
+
+
+/* Optional: Add some responsiveness */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    input[type="file"] {
+        width: 80%;
+    }
+
+    button {
+        width: 80%;
+    }
+}

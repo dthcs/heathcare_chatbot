@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+    <h1>Healthcare Demo</h1>
+    <div class="chat-container">
+        <div class="file-upload">
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="file">
+                <button type="submit">Upload</button>
+            </form>
+
+        </div>
+        <ul class="chat"></ul>
+
+            <div id="result-container1" class="message left">
+
+            </div>
+            <div id="result-container2" class="message left">
+
+            </div>
+        </ul>
+    </div>
+
+</body>
+
+</html>
+
+<script src="../static/script.js"></script>
